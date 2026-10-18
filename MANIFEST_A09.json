@@ -1,0 +1,13 @@
+{
+  "version": "A09",
+  "base": "A08-FIX04",
+  "type": "native-android",
+  "scope": "read-only approved admin questions, no server changes",
+  "files": {
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/MainActivity.java": "5dd447402b7f8f3bd83c06795f154ffb0b7a360f71a3434eac87debfe62812fb",
+    "app/build.gradle": "870eee564083b5b6d5036be4e7455e3c3eb17491f020e2393ee2e848372d2cfb",
+    ".github/workflows/build-debug-apk.yml": "822780ee03dc4687c65756550758858c7716cf7cf08d557aba5a6e152f6d1aec",
+    "tools/verify_a09.py": "41ff161fcbd83b5173e373338f10ea18c32335ad0a6edce5a931c16198b322b8",
+    "README_A09_FA.md": "e82483a28af7873a173407aba370a3f8ba9b1bdb912ecfeb0a4a7f51e091223f"
+  }
+}

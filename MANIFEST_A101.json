@@ -1,0 +1,29 @@
+{
+  "version": "A10.1-EXAM-TYPES-BANK-TEST",
+  "base": "A10 native draft builder",
+  "changed": [
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/MainActivity.java",
+    "app/src/main/java/ir/scooljavanrood/madreseyar/teacher/ExamCategoryRules.java",
+    "app/build.gradle",
+    ".github/workflows/build-debug-apk.yml",
+    "tools/verify_a09.py",
+    "tools/verify_a10.py",
+    "tools/verify_a101.py",
+    "tools/TestExamCategoryRules.java"
+  ],
+  "server_changed": false,
+  "database_changed": false,
+  "release_status": "TEST",
+  "qa": {
+    "statics": [
+      "verify_a09.py",
+      "verify_a10.py",
+      "verify_a101.py"
+    ],
+    "java": [
+      "TestExamCategoryRules.java",
+      "TestExamDraftRules.java",
+      "TestGradebookRules.java"
+    ]
+  }
+}
